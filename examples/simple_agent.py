@@ -1,6 +1,7 @@
 """
 Example of how to use the Agent Boilerplate package.
 """
+from agents import Agent
 import os
 import sys
 import dotenv
@@ -11,9 +12,6 @@ dotenv.load_dotenv()
 # Add the parent directory to the path to import the package
 # (only needed when running from the examples directory without installing the package)
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-# Import the Agent class
-from agents import Agent
 
 
 def main():
